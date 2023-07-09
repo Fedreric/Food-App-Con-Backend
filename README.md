@@ -27,7 +27,7 @@ git clone https://github.com/Juliancito1/Food-App
 ```
 ## PARA INICIAR EL PROYECTO
 - Colar el repocitorio del backend https://github.com/Fedreric/Food-App-Backend.git
-- Ejecutar npm run dev en ambos proyectos
+- Ejecutar npm install y npm run dev en ambos proyectos
 - Loguear con el usuario Administrador
 - Email: admin@gmail.com
 - Password: Recetas2023!
