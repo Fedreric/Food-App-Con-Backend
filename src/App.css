@@ -1,0 +1,287 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #161616;
+}
+
+.mainPage {
+    flex-grow: 1;
+}
+
+
+.fondoVerde {
+    background-color: #C0FF0D;
+}
+
+.textoVerde {
+    color: #C0FF0D;
+}
+
+.Logo {
+    width: 100px;
+}
+
+textarea {
+    resize: none;
+}
+
+
+
+.contenedorSearch {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.contenedorSearch i {
+    font-size: 18px;
+    color: #999999;
+    margin-left: 5px;
+}
+
+.contenedorSearch input {
+    border: none;
+    outline: none;
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+.card-receta {
+    height: 230px;
+    width: 155px;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    margin-bottom: 24px;
+}
+
+.card-desc {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: -30px;
+    text-align: center;
+}
+
+.card-desc p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.card-desc h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-receta-detalle {
+    font-size: 12px;
+    color: #FC1212;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* banner */
+/* .banner{
+
+} */
+.main_error {
+    height: 85vh;
+    color: #fff;
+}
+
+.pacman_text {
+    width: 75%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.btn-banner {
+    background-color: #C0FF0D;
+    color: #161616;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 0.3em;
+    text-align: center;
+}
+
+.btn-banner:hover {
+    background-color: #C0FF0D;
+    color: #161616;
+}
+
+.usuario_contenedor {
+    height: 100vh;
+    color: #fff;
+}
+
+.usuario_contenedor h2 {
+    margin-bottom: 3rem;
+}
+
+.form_contenedor {
+    width: 80%;
+}
+
+.form_contenedor button {
+    background-color: #C0FF0D;
+    border: 2px solid transparent;
+    color: #161616;
+    padding: .5rem;
+    border-radius: .4rem;
+    transition: .3s;
+}
+
+.form_contenedor button:hover {
+    background-color: transparent;
+    border: 2px solid #C0FF0D;
+    color: #C0FF0D;
+}
+
+/*Detalle de receta*/
+.li-ingrediente {
+    background-color: #cacaca;
+}
+
+.paso-instruccuiones-color {
+    color: #C0FF0D;
+}
+
+.p-instrucciones {
+    line-height: 1.7rem;
+}
+
+.card-img {
+    height: 6rem;
+}
+
+.card-img img {
+    object-fit: cover;
+}
+
+.link-registro{
+    color: #C0FF0D;
+}
+
+@media (min-width: 988px) {
+    .contenedorSearch {
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+    }
+
+    .contenedorSearch i {
+        margin-left: 0px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .contenedorSearch input {
+        width: 0;
+        display: none;
+    }
+
+    .contenedorSearch:hover {
+        width: 180px;
+        border-radius: 5px;
+        background-color: #fff;
+        padding-left: 7px;
+        transition: .3s;
+    }
+
+    .contenedorSearch:hover i {
+        color: #999;
+    }
+
+    .contenedorSearch:hover input {
+        width: 100%;
+        display: block;
+        padding: 0 8px;
+    }
+
+    .card-receta {
+        height: 350px;
+        width: 240px;
+        padding-bottom: 20px;
+        margin-bottom: 45px;
+    }
+
+    .card-desc {
+        margin-top: -60px;
+    }
+
+    .card-desc p {
+        font-size: 15px;
+    }
+
+    .card-desc h5 {
+        font-size: 20px;
+    }
+
+    .card-receta a {
+        font-size: 14px;
+    }
+
+    /*Banner main*/
+    .banner-image {
+        order: 2;
+        background: linear-gradient(to right, #161616 65%, #C0FF0D 40%);
+    }
+
+    .btn-banner i {
+        transition: 1.3s;
+    }
+
+    .btn-banner:hover i {
+        margin-left: 20px;
+    }
+
+    .usuario_contenedor .form_contenedor {
+        width: 40%;
+    }
+
+    .usuario_contenedor .form_contenedor button {
+        padding: 1.1rem;
+    }
+
+    .lista-ingredientes {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .p-instrucciones {
+        max-width: 70ch;
+    }
+
+    .img-intrucciones {
+        opacity: .8;
+    }
+
+    .card-img {
+        height: 11rem;
+    }
+
+    .img-detalle-receta {
+        max-height: 800px;
+        object-fit: cover;
+    }
+
+}
+
+@media (width >=768px) {
+    .banner-image {
+        order: 2;
+        background: linear-gradient(to right, #161616 65%, #C0FF0D 40%);
+    }
+
+    .form_contenedor {
+        width: 60%;
+    }
+
+    .form_contenedor input,
+    .form_contenedor button {
+        padding: 1rem;
+    }
+}
