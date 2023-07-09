@@ -33,7 +33,7 @@ git clone https://github.com/Juliancito1/Food-App
 - Password: Recetas2023!
 
 ## Link de netlify
-https://site-food-app.netlify.app
+https://food-app-con-backend-fede39i.netlify.app/
 
 ## Autor 
 Julián Martín [GitHub](https://github.com/Juliancito1)
