@@ -1,4 +1,4 @@
-# FoodApp Trabajo Practico React: Ejercicio 14 CRUD Recetas
+# FoodApp Trabajo Practico BACKEND 
 ![React](https://cdn.cdnlogo.com/logos/r/85/react.svg)
 
 Repositorio creado para la realización del Ejercicio 14 del TP de React.
@@ -11,6 +11,9 @@ Repositorio creado para la realización del Ejercicio 14 del TP de React.
 - JavaScript
 - JSON Server
 - React
+- MongoDB
+- Express
+- Nodejs
 
 ## Requisitos ✅
 - Tener una cuenta de GitHub para poder clonar el repositorio
@@ -23,8 +26,11 @@ Repositorio creado para la realización del Ejercicio 14 del TP de React.
 git clone https://github.com/Juliancito1/Food-App
 ```
 ## PARA INICIAR EL PROYECTO
-- json-server --watch db.json --port 3004
-- npm run dev 
+- Colar el repocitorio del backend https://github.com/Fedreric/Food-App-Backend.git
+- Ejecutar npm run dev en ambos proyectos
+- Loguear con el usuario Administrador
+- Email: admin@gmail.com
+- Password: Recetas2023!
 
 ## Link de netlify
 https://site-food-app.netlify.app
